@@ -52,6 +52,10 @@ body {
   }
   
   .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
     list-style: none;
     margin: 0;
     padding: 0;
