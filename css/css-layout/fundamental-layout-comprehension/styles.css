@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #fff;
     color: #333;
@@ -26,6 +30,8 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+    position: sticky;
+    top: 0;
   }
   
   nav ul {
@@ -34,7 +40,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;    
   }
   
   nav a {
